@@ -36,7 +36,7 @@ pipeline {
         stage('codecoverage') {
 
            tools {
-              jdk 'java1.8'
+              jdk 'java-8-openjdk-amd64'
            }
 	         steps {
                 // step4
